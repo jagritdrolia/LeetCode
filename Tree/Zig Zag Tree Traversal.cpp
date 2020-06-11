@@ -93,3 +93,5 @@ public:
         return v;
     }
 };
+
+Note:- if we want to reverse the zig zag traversal just reverse(v.begin(),v.end());
