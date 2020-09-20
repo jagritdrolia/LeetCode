@@ -151,7 +151,7 @@ void connectutil(Node* root)
         else if(root->right)
             root=root->right;
        else
-           root=root->next;
+           root=getmin(root);
    }
 }
 class Solution {
